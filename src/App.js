@@ -4,12 +4,12 @@ import Welcome from './components/Welcome';
 import Card from './components/Card'; 
 import Feedback from './components/Feedback'; 
 
-const lightColors = ["lightpink", "lightsalmon", "lightcoral", "lightseagreen", "lightyellow"];
+const lightColors = ["lightpink", "lightsalmon", "lightcoral", "lightseagreen", "lightyellow", "lightblue", "lightgreen", "lavender", "lemonchiffon"];
 const randomColor = lightColors[Math.floor(Math.random() * lightColors.length)];
 
 function App() { 
 	return ( 
-		<div className="app" style={{ backgroundColor: randomColor }}> 
+		<div className="app" style={{ backgroundColor: randomColor, minHeight: "120vh" }}> 
 			<Welcome/> 
 			<Icons/> 
 			<Card/> 

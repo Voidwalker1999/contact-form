@@ -1,7 +1,7 @@
 export default function Card() { 
 	return ( 
 		<div> 
-			<div className="h-52 ml-48 float-left -mt-10 w-96 flex-col rounded-xl bg-blue-200 bg-clip-border text-gray-700 shadow-2xl"> 
+			<div className="h-52 ml-48 float-left -mt-10 w-96 flex-col rounded-xl bg-blue-200 bg-clip-border text-gray-700 shadow-2xl border border-gray-400"> 
 				<div className="p-6"> 
 					<h5 className="text-center mr-4 mb-2 block font-sans text-xl font-semibold text-blue-gray-900 antialiased"> 
 						Reach Us At 
@@ -26,7 +26,7 @@ export default function Card() {
 					</ul> 
 				</div> 
 			</div> 
-			<div className="mr-36 w-96 text-center float-right -mt-11 w-1/3 flex-col rounded-xl bg-green-200 text-gray-700 shadow-2xl"> 
+			<div className="mr-36 w-96 text-center float-right -mt-11 w-1/3 flex-col rounded-xl bg-green-200 text-gray-700 shadow-2xl border border-gray-400"> 
 				<div className="p-6"> 
 					<h5 className="mb-2 block font-sans text-xl font-semibold text-blue-gray-900 antialiased"> 
 						-- Add anything here -- 
