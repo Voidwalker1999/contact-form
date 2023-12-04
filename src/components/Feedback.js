@@ -49,7 +49,7 @@ export default function Feedback() {
 						required
 					/>
 					<br></br>
-					<label className="text-sm">Contact No.</label>
+					<label className="text-sm">Contact No. (Optional)</label>
 					<br></br>
 					<input
 						className="bg-gray-50 border border-gray-300 text-sm rounded-lg focus:border-blue-500 w-full p-2.5"
