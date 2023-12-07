@@ -26,6 +26,12 @@ export default function Navbar() {
 									Contact Us 
 								</a> 
 							</li> 
+							<li>
+								<div className="flex items-center">
+									<img src={process.env.PUBLIC_URL + "/images/woman.png"} className="h-8 w-8 rounded-full" alt="Profile Picture" />
+									<span className="ml-2 text-gray-900">Jane Doe</span>
+								</div>
+							</li>
 						</ul> 
 					</div> 
 				</div> 
